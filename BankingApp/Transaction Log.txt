@@ -1,0 +1,11 @@
+Deposit: +500.0
+Withdrawal: -350.0
+Withdrawal: -50.0
+Deposit: +5000.0
+Withdrawal: -5000.0
+Deposit: +1000.0
+Withdrawal: -600.0
+Deposit: +100.0
+Withdrawal: -500.0
+Deposit: +50000.0
+Withdrawal: -6900.0
