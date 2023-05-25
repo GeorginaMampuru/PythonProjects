@@ -20,11 +20,11 @@ This is a simple banking application developed in Python. It allows users to mak
 1. Clone this repository or download the source code files.
 2. Make sure you have Python 3.x installed on your system.
 3. Install the required dependencies, if any, using `pip` or your preferred package manager.
-4. Run the `banking_application.py` file using the Python interpreter.
+4. Run the `main.py` file using the Python interpreter.
 
 ## Usage
 
-1. Launch the application by running the `banking_application.py` file.
+1. Launch the application by running the `main.py` file.
 2. The application will display a graphical user interface (GUI) window.
 3. The window will ask if you want to make a transaction (deposit or withdrawal).
 4. Enter your choice (Yes or No) and follow the prompts to make a deposit or withdrawal.
@@ -34,7 +34,7 @@ This is a simple banking application developed in Python. It allows users to mak
 
 ## File Structure
 
-- `banking_application.py`: The main Python script that implements the banking application.
+- `main.py`: The main Python script that implements the banking application.
 - `Bank Data.txt`: Text file to store the current balance.
 - `Transaction Log.txt`: Text file to store transaction details.
 
