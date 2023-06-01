@@ -28,6 +28,14 @@ frame = customtkinter.CTkFrame(master=l1, width=320, height=360, corner_radius=1
 frame.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
 
 
+def clear_inputs():
+    entry1.delete(0, "end")
+    entry2.delete(0, "end")
+    entry1_signup.delete(0, "end")
+    entry2_signup.delete(0, "end")
+    entry3_signup.delete(0, "end")
+
+
 def login():
     username = entry1.get()
     password = entry2.get()
@@ -36,6 +44,7 @@ def login():
         messagebox.showerror("Error", "All fields are required!!")
     elif username in signup_data and password == signup_data[username]["password"]:
         messagebox.showinfo("Successful", f"Welcome {username}")
+        clear_inputs()
         open_banking_app()
     else:
         messagebox.showerror("Error", "Invalid User")
@@ -68,6 +77,7 @@ def sign_up():
         signup_data[username] = {"password": password, "email": email}
         save_sign_up_data(signup_data)
         messagebox.showinfo("Success", "Sign up successful!")
+        clear_inputs()
 
 
 signup_data = load_sign_up_data()
@@ -193,12 +203,7 @@ def open_banking_app():
     root.iconbitmap("CeedLogo.ico")
     root.geometry("400x200")
 
-    # Load and display image
-    # image = Image.open("CeedLogo.png")
-    # image = image.resize((400, 300), Image.ANTIALIAS)
-    # photo = ImageTk.PhotoImage(image)
-    # image_label = tk.Label(root, image=photo, bg="black")
-    # image_label.pack(pady=20)
+  
 
     balance_label = tk.Label(
         root, text="Current balance: R" + str(read_balance()), font=("Helvetica", 16)
@@ -328,4 +333,3 @@ button2 = customtkinter.CTkButton(
 button2.place(x=50, y=280)
 
 app.mainloop()
-
