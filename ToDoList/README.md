@@ -1,38 +1,51 @@
-# Project Name
+# To-Do List Application
 
-A brief description of your project.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Project Overview
-
-Provide a high-level overview of your project. Explain what it does and why it is useful or interesting.
+This is a simple to-do list application created using Python and tkinter.
 
 ## Features
 
-List the key features and functionalities of your project.
+- Add tasks to the list
+- Delete tasks from the list
+- Clear all tasks from the list
+
+## Requirements
+
+- Python 3.x
+- tkinter library (usually included with Python installations)
 
 ## Installation
 
-Provide instructions on how to install and set up your project. Include any prerequisites or dependencies.
+1. Clone the repository or download the source code.
+
+
+2. Navigate to the project directory.
+
+
+3. Run the application.
+
+
 
 ## Usage
 
-Explain how to use your project. Provide examples or code snippets if applicable.
+1. Launch the application by running the `todo_app.py` script.
+
+2. Type your tasks in the entry field and click the "Add Task" button to add them to the list.
+
+3. To delete a task, select it in the list and click the "Delete Task" button.
+
+4. To clear all tasks from the list, click the "Clear Tasks" button.
+
+## Screenshots
+![image](https://github.com/GeorginaMampuru/PythonProjects/assets/66384787/eb04bb45-2f8a-4ce3-8f8c-130cdec858cd)
+
 
 ## Contributing
 
-Explain how others can contribute to your project if you're open to contributions. Include guidelines for pull requests, bug reports, or feature requests.
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
 ## License
 
-Specify the license under which your project is distributed. For example, you can use the following statement:
-
 This project is licensed under the [MIT License](LICENSE).
+
+
+
