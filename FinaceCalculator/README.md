@@ -29,11 +29,15 @@ Finance Calculator is a Python program that allows users to perform financial ca
 
 ![Welcome Pa![MicrosoftTeams-image (2)
 ![MicrosoftTeams-image (3)](https://github.com/GeorginaMampuru/PythonProjects/assets/66384787/c4d48c7e-a379-440e-ab46-685f868d08c7)
-![Uploading MicrosoftTeams-image (2).png…]()
-![Uploading MicrosoftTeams-image (6).png…]()
-![Investment Calculator](screenshots/investment_calculator.png)
 
-![Bond Repayment Calculator](screenshots/bond_repayment_calculator.png)
+![Investment Calculator]
+
+![Micros![MicrosoftTeams-image (5)](https://github.com/GeorginaMampuru/PythonProjects/assets/66384787/dd83be59-f70b-43df-a958-74f899bfe5ea)
+oftTeams-image (7)](https://github.com/GeorginaMampuru/PythonProjects/assets/66384787/dc42db61-7dd4-40a7-bd98-07efd22c744b)
+
+
+
+![MicrosoftTeams-image (6)](https://github.com/GeorginaMampuru/PythonProjects/assets/66384787/1c6c1a68-5c33-42cc-930b-9fbfa134992a)
 
 
 ## Contributing
