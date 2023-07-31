@@ -1,4 +1,4 @@
-# To-Do List Application
+# To-Do List Application in Progress
 
 This is a simple to-do list application created using Python and tkinter.
 
